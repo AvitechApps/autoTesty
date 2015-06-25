@@ -10,12 +10,12 @@ public class LoginTool {
 		this.driver = driver;
 	}
 
-	public void Log(){
+	public void Login(){
 		    driver.findElement(By.id("_58_login")).sendKeys("admin");
 	        driver.findElement(By.id("_58_password")).sendKeys("test");
 	        driver.findElement(By.className("aui-button-input-submit")).click();
 	}
-	public void SignOut(){
+	public void Logout(){
 		driver.findElement(By.className("sign-out")).click();
 	}
 }
