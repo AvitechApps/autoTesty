@@ -1,4 +1,4 @@
-package com.app;
+package com.portalParts;
 
 import java.util.List;
 
