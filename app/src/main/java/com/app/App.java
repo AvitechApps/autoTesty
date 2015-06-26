@@ -25,7 +25,7 @@ public class App
 	        		
 	        //Log In
 	        LoginTool tool = new LoginTool(driver);
-	        tool.Log();
+	        tool.Login();
 	        
 	        
 	        ChangeRequest CR = new ChangeRequest(driver);
