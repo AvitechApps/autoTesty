@@ -1,5 +1,5 @@
 package com.portalTasks;
 
-public class CRsubmintCR {
+public class CR_submitCR {
 
 }
