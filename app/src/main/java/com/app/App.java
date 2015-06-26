@@ -30,6 +30,7 @@ public class App
 	        
 	        ChangeRequest CR = new ChangeRequest(driver);
 	        CR.CreateCR();
+	        System.out.println("tomik je kar");
 	        
 	        
 	        //Sign Out
