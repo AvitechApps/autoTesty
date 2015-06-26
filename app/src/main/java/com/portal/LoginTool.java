@@ -1,8 +1,8 @@
-package com.portalParts;
+package com.portal;
 
 import org.openqa.selenium.*;
 
-import com.portalParts.app.App;
+import com.portalMain.App;
 
 public class LoginTool {
 	private WebDriver driver;

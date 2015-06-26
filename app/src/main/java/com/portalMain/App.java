@@ -1,10 +1,10 @@
-package com.portalParts.app;
+package com.portalMain;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
-import com.portalParts.ChangeRequest;
-import com.portalParts.LoginTool;
+import com.changeRequest.ChangeRequest;
+import com.portal.LoginTool;
 
 /**
  * Hello world!

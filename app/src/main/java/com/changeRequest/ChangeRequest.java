@@ -1,4 +1,4 @@
-package com.portalParts;
+package com.changeRequest;
 
 import java.util.List;
 
