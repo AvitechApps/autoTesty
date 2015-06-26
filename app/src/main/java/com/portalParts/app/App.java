@@ -8,7 +8,7 @@ import com.portalParts.LoginTool;
 
 /**
  * Hello world!
- *ugjhg
+ *
  */
 public class App 
 {
