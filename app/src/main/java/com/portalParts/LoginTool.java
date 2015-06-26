@@ -1,7 +1,8 @@
 package com.portalParts;
 
 import org.openqa.selenium.*;
-import org.openqa.selenium.By;
+
+import com.portalParts.app.App;
 
 public class LoginTool {
 	private WebDriver driver;
@@ -11,8 +12,8 @@ public class LoginTool {
 	}
 
 	public void Login(){
-		    driver.findElement(By.id("_58_login")).sendKeys("admin");
-	        driver.findElement(By.id("_58_password")).sendKeys("test");
+		    driver.findElement(By.id("_58_login")).sendKeys(App.userName);
+	        driver.findElement(By.id("_58_password")).sendKeys(App.userPassword);
 	        driver.findElement(By.className("aui-button-input-submit")).click();
 	}
 	public void Logout(){
